@@ -1,0 +1,86 @@
+
+.family{
+    font-family: "Courier New", Courier, monospace;
+}
+
+header{
+    width: 1600px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.red{
+    color: rgb(212, 2, 2);
+    font-weight: 700;
+}
+
+body{
+    padding: 100px;
+}
+
+.green{
+    color: rgb(71, 184, 67);
+    font-weight: 700;
+}
+
+.bg{
+    margin: 20px;
+    height: 400px;
+    width: 420px;
+}
+
+.healthy{
+    font-weight: bolder;
+    font-size: 50px;
+}
+
+
+.bold{
+    font-size: 40px;
+    margin: 15px;
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.pic{
+    height: 450px;
+    width: 350px;
+    padding: 20px;
+    object-fit: cover;
+}
+
+.middle{
+    background-color: rgb(218, 218, 218);
+    width: 1600px;
+    height: 600px;
+    padding: 50px;
+}
+
+.zoom {
+    transition: transform .2s; /* Animation */
+    margin: 0 auto;
+    }
+
+.zoom:hover {
+    transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+    }
+
+    @keyframes fadeInRight {
+        0% {
+            transform: translatex(-25%);
+            opacity: 0;
+        }
+    
+        100% {
+            transform: translateX(0%);
+            opacity: 1;
+        }
+    }
+    
+    .fadeInRight-animation {
+        animation: 1.7s fadeInRight;
+    }
